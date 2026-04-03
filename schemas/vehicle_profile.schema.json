@@ -1,0 +1,32 @@
+{
+  "title": "VehicleProfile",
+  "type": "object",
+  "required": ["vin", "model", "capabilities"],
+  "properties": {
+    "vin": { "type": "string" },
+    "model": { "type": "string" },
+    "capabilities": {
+      "type": "object",
+      "properties": {
+        "gps": { "type": "boolean" },
+        "lock": { "type": "boolean" },
+        "climate": { "type": "boolean" },
+        "tpms": { "type": "boolean" },
+        "seat_heat_driver": { "type": "boolean" },
+        "seat_heat_passenger": { "type": "boolean" },
+        "seat_heat_rear_left": { "type": "boolean" },
+        "seat_heat_rear_right": { "type": "boolean" },
+        "seat_vent_driver": { "type": "boolean" },
+        "seat_vent_passenger": { "type": "boolean" },
+        "battery_heat": { "type": "boolean" },
+        "steering_wheel_heat": { "type": "boolean" },
+        "sunroof": { "type": "boolean" },
+        "frunk": { "type": "boolean" },
+        "refrigerator": { "type": "boolean" },
+        "sentry_mode": { "type": "boolean" }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}
