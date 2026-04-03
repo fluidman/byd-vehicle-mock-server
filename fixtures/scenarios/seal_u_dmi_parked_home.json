@@ -1,0 +1,42 @@
+{
+  "vin": "LGX123456789FAKE1",
+  "name": "BYD Seal U DM-i",
+  "online": true,
+  "soc": 67,
+  "range_km": 540,
+  "odometer_km": 1240,
+  "speed_kmh": 0,
+  "charging": false,
+  "locked": true,
+  "vehicle_on": false,
+  "cabin_temp_c": 21.5,
+  "outside_temp_c": 14.0,
+  "latitude": 47.741,
+  "longitude": 8.970,
+  "telemetry_updated_at": "2026-04-03T10:15:00Z",
+  "gps_updated_at": "2026-04-03T10:15:00Z",
+  "doors": {
+    "fl": false,
+    "fr": false,
+    "rl": false,
+    "rr": false
+  },
+  "windows": {
+    "fl": false,
+    "fr": false,
+    "rl": false,
+    "rr": false
+  },
+  "trunk_open": false,
+  "frunk_open": false,
+  "sunroof_open": false,
+  "tpms": {
+    "fl": 2.5,
+    "fr": 2.5,
+    "rl": 2.4,
+    "rr": 2.4
+  },
+  "climate_on": false,
+  "steering_wheel_heat": false,
+  "battery_heat": false
+}
