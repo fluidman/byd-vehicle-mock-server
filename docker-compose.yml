@@ -1,0 +1,6 @@
+services:
+  byd-mock:
+    build: .
+    container_name: byd-vehicle-mock-server
+    ports:
+      - "8080:8080"
