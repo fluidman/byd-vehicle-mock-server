@@ -1,0 +1,22 @@
+{
+  "vin": "LGX123456789FAKE1",
+  "model": "BYD Seal U DM-i",
+  "capabilities": {
+    "gps": true,
+    "lock": true,
+    "climate": true,
+    "tpms": true,
+    "seat_heat_driver": true,
+    "seat_heat_passenger": true,
+    "seat_heat_rear_left": true,
+    "seat_heat_rear_right": true,
+    "seat_vent_driver": true,
+    "seat_vent_passenger": true,
+    "battery_heat": true,
+    "steering_wheel_heat": true,
+    "sunroof": true,
+    "frunk": false,
+    "refrigerator": false,
+    "sentry_mode": false
+  }
+}
